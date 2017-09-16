@@ -8,10 +8,9 @@ Requirements:
 yum install libnss-mysql pam_mysql mysql-server
 
 create database user_db
-
-grant all privileges on user_db.* to 'sshdb'@'%' identified by '
-install DB
-CREATE TABLE `groups` (
+ grant all privileges on user_db.* to 'sshdb'@'%' identified by '
+ install DB
+ CREATE TABLE `groups` (
 `name` varchar(16) NOT NULL DEFAULT '',
 `password` varchar(34) NOT NULL DEFAULT 'x',
 `gid` int(11) NOT NULL AUTO_INCREMENT,
