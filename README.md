@@ -3,7 +3,8 @@ Code modification to allow insert of SSH users.
 Requirements:
 - SSH configured with nss-mysql
 
-HOW TO (For CENTOS):
+# HOW TO (For CENTOS):
+
 yum install libnss-mysql pam_mysql mysql-server
 
 create database user_db
